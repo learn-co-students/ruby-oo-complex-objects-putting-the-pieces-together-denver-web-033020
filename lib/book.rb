@@ -1,7 +1,7 @@
 class Book
-    #attr_accessor can replace both setter and getter method. following properties have both setter and getter methods
+    #attr_accessor can replace both setter and getter methods. following properties have both setter and getter methods
     attr_accessor :author, :page_count, :genre
-    #attr_reader can replace getter method. property title only has etter method because instance variable is set in iniatilize method.so use attr_reader
+    #attr_reader can replace getter method. property title only has a getter method because instance variable is already set in iniatilize method.so use attr_reader
     attr_reader :title
 
     def initialize (title)
